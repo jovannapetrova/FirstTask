@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("mjovanovik/kiii-jenkins")
+        app = docker.build("jovannapetrova/FirstTask")
     }
 
     stage('Push image') {
